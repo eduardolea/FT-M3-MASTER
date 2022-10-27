@@ -15,4 +15,4 @@ http.createServer( function(req, res){
 		};	
 		res.end( JSON.stringify(obj) );
 	} 
-}).listen(1337, '127.0.0.1');
+}).listen(3000, '127.0.0.1');

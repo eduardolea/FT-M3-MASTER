@@ -11,4 +11,4 @@ http.createServer( function(req, res){
 	
 	res.end( JSON.stringify(obj) ); //Antes de enviar el objeto, debemos parsearlo y transformarlo a un string JSON
 
-}).listen(1337, '127.0.0.1');
+}).listen(3000, '127.0.0.1');
